@@ -4,11 +4,11 @@
 
 <br />
 <div align="center">
-  <!--<a href="https://github.com/zyx-0314/">-->
-  <a>https://github.com/Bea3Ines/WD-Seatwork_4.git</a>
-  <a href="https://www.freepik.com/icon/fun_11705443#fromView=search&page=1&position=16&uuid=91f38795-67b4-4620-a6fb-3dddd1977998">Icon by Reion</a>
+  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Bea3Ines/WD-Seatwork_4.git">
+  <a href="https://www.freepik.com/icon/fun_11705443#fromView=search&page=1&position=16&uuid=91f38795-67b4-4620-a6fb-3dddd1977998"Icon by Reion>
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img scr="assets/img/Star.png" alt="stars">
+    <img scr="assets/img/fun_11705443.png" alt="stars" width=>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Welcome Young Ones!</h3>
@@ -22,7 +22,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork_4)
+![](https://visit-counter.vercel.app/counter.png?page=Bea3Ines/WD-Seatwork_4)
 
 ---
 
