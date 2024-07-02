@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <a href="https://github.com/Bea3Ines/WD-Seatwork_4.git">
-  <a href="https://www.freepik.com/icon/fun_11705443#fromView=search&page=1&position=16&uuid=91f38795-67b4-4620-a6fb-3dddd1977998"Icon by Reion>
+  <a href="assets/img/fun_11705443.png">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img scr="assets/img/fun_11705443.png" alt="stars" width=>
   </a>
