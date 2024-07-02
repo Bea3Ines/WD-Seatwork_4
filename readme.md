@@ -4,16 +4,18 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <!--<a href="https://github.com/zyx-0314/">-->
+  <a>https://github.com/Bea3Ines/WD-Seatwork_4.git</a>
+  <a href="https://www.freepik.com/icon/fun_11705443#fromView=search&page=1&position=16&uuid=91f38795-67b4-4620-a6fb-3dddd1977998">Icon by Reion</a>
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    
+    <img scr="assets/img/Star.png" alt="stars">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Welcome Young Archers!</h3>
+  <h3 align="center">Welcome Young Ones!</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This your chance to improve your worthiness of being a true Lasallians!
+  This your chance to improve your skills!
 </div>
 
 <br />
@@ -42,12 +44,12 @@
         </li>
       </ol>
     </li>
-    <li>
+    <!--<li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
-    </li>
+    </li>-->
   </ol>
 </details>
 
@@ -57,13 +59,13 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+<!--Description of the project in details.-->
 
 Guiding Question:
-- What pressurres you?
-- Who distracts you
-- Why do you keep on giving up?
-- When did you fail those subjects?
+- What is the project?
+- Whats the purpose?
+- What are key components?
+- What technology used and how it is used?
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -76,7 +78,7 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-<!--![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)-->
+<!--[JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)-->
 
 <!--## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
