@@ -4,18 +4,18 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Bea3Ines/">
   <a href="https://github.com/Bea3Ines/WD-Seatwork_4.git">
   <a href="assets/img/fun_11705443.png">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img scr="assets/img/fun_11705443.png" alt="stars" width=>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Welcome Young Ones!</h3>
+  <h3 align="center">For Beginners</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This your chance to improve your skills!
+  This is where feature place
 </div>
 
 <br />
