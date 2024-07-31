@@ -8,7 +8,7 @@
   <a href="https://github.com/Bea3Ines/WD-Seatwork_4.git">
   <a href="./assets/img/brush_10836013.png">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img scr="assets/img/brush_10836013.png" alt="paintbrush" width=100px>
+    <img scr="assets/img/brush_10836013.png" alt="paintbrush" width=100px height=100px>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 4: Feature Display</h3>
