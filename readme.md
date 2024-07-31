@@ -8,14 +8,14 @@
   <a href="https://github.com/Bea3Ines/WD-Seatwork_4.git">
   <a href="./assets/img/brush_10836013.png">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img scr="assets/img/brush_10836013.png" alt="paintbrush" width=>
+    <img scr="assets/img/brush_10836013.png" alt="paintbrush" width=100px>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">For Beginners</h3>
+  <h3 align="center">Seatwork 4: Feature Display</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This is where feature place
+  This page have designed layouts and feature pages created.
 </div>
 
 <br />
@@ -57,22 +57,26 @@
 
 ## Overview
 
+This is feature is about an art service where it has tutorials and fun activities that users can enjoy from this page. 
+It is educational because this page is for community even children who inspires to draw and share.
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 <!--Description of the project in details.-->
 
-Guiding Question:
+<!--Guiding Question:
 - What is the project?
 - Whats the purpose?
 - What are key components?
-- What technology used and how it is used?
+- What technology used and how it is used?-->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Story and features
-- Colors
-- Arts
+- Designed Feature Pages
+- Color guides
+- Quizzes&Games
+- Art Tutorials
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -120,3 +124,9 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Freepik | logos, pics, features, icons, etc. | Freepik.com |
+| Fontsawesome | Designed & simple icons, of any objects shapes or any icons | fontsawesome.com |
+| Bootstrap | It's a web page for css templates, guides and examples that will practice the structure of web design | https://getbootstrap.com |
+| Google Fonts | A google service which has kinds of icons and fonts to choose | fonts.google.com |
+| W3Schools | It's a web page tutorial for web designers which features css templates, guides and examples | https://www.w3schools.com |
+
+
