@@ -5,92 +5,312 @@
     box-sizing: border-box;
     font-family: Silkscreen;
     font-weight: 400;
-    outline: none
+    outline: none;
 }
 
-.container{
-    background-image: url('../img/wallpaper.jpg');
-    image-rendering: smooth;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
-    width: 100%;
-    color: rgb(250, 235, 215);
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Lilita One;
+    color: #333;
+    line-height: 1.4;
+}
+
+.navigate{
+    background: lightseagreen;
 }
 .row{
-    padding: 0 80px;
     width: 100%
 }
-h1{
-    font-size: 45px;
+.buttons h1{
+    font-size: 55px;
+    color: #333;
+
 }
-.jojo{
+.buttons{
     width: 100%;
-    justify-content: space-between;
+    letter-spacing: 2px;
+    justify-content: space-around;
     position: relative;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
     z-index: 1;
     display: flex;
 }
 
-.jojo li{
+.buttons li{
     padding: 0 25px;
     list-style: none;
+    font-weight: 100;
 }
 
-.jojo ul {
+.buttons ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 11px;
 }
-.jojo ul li a{
+.buttons ul li a{
     text-decoration: none;
     color: white;
     font-size: 18px;
     padding: 3px 10px;
     border-radius: 30px;
 }
+
 h2{
     font-size: 30px;
 }
-.jojo ul li a:hover{
-    background-color: rgb(154, 24, 68);
-    transition: ease-in 0.5s;
-}
-.joji{
-    position: absolute;
-    width: 100%;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
-    top: 0;
-    left: 0;
-}
-.choose ul {
-    list-style: none;
-    justify-content: center;
-    display: flex;
-    margin-top: 20px;
-}
-.choose li{
-    padding: 0 45px;
-}
-.choose ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 0 20px;
-    border-radius: 10px;
-    background-color: rgb(249, 187, 0);
+.buttons ul li a:hover{
+    background-color: #333;
+    transition: ease 0.1s;
 }
 
-.choose ul li a:hover{
-    transition: ease-in, 0.5s;
-    background-color: rgb(154, 24, 68);
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1px 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 10px;
+    background: #e9c667;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: white 0.3s ease;
+}
+
+header .btn:hover {
+    background: coral;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row h2{
+    width: 100%;
+    text-align: center;
+    margin: 0.6em 0;
+    font-size: 3.75em;
+    font-weight: 600;
+    color: black;
+
+}
+.column{
+    padding: 1em;
+}
+
+.click{
+    display: inline-block;
+    background: lightseagreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background 0.3s;
+}
+
+.click:hover{
+    background: #e9c667;
+}
+.card{
+    text-align: center;
+    padding: 3.1em 1.25em;
+    background: linear-gradient(0deg, lightseagreen 10px, transparent 10px);
+    background-repeat: no-repeat;
+    background-position: 0 0.62em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.358);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card .icon i{
+    display: grid;
+    place-items: center;
+    height: 2em;
+    width: 2em;
+    font-size: 2.5em;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    margin: auto;
+    font-weight: 600;
+    color: #e9c667;
+    margin: 0 3.3em ;
+}
+
+.card h3{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 1em 0 1.4em 0;
+    letter-spacing: 0.3px;
+    color: lightseagreen;
+}
+
+.card p{
+    color: #333;
+    line-height: 2em;
+}
+.card:hover{
+    background-position: 0;
+}
+.card:hover .card::before{
+    width: 2.25em;
+    height: 2.25em;
+}
+@media screen and (min-width: 768px){
+    section{
+        padding: 1em 7em;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .section{
+        padding: 1em;
+    }
+    .card{
+        padding: 5em 2em;
+    }
+    .column{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1em;
+    }
+}
+
+.container{
+    display: grid;
+}
+.features-section {
+    background: lightseagreen;
+    padding: 50px 0;
+}
+
+.features-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: white
+}
+
+.feature {
+    display: flex;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.apple{
+    font-size: 30px;
+}
+.apple img {
+    width: 800px;
+    height: 500px;
+    size-adjust: 5%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 10%;
+}
+.tangerine{
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+.tangerine img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-left: 30%;
+}
+.lemon{font-size: 25px;
+margin-top: 5%;}
+.lemon img {
+    width: 50%;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 30%;
+}
+.info {
+    margin-right: 10%;
+    float: right;
+    background-color: #e9c667;
+    border-radius: 1em;
+    padding: 0 30px 10px;
+}
+.info2 {
+    margin-left: 5%;
+    float: left;
+    align-content: center;
+    background-color: #e9c667;
+    border-radius: 1em;
+    padding: 0 30px 10px;
+}
+.info3 {
+    float: left;
+    background-color: #e9c667;
+    border-radius: 1em;
+    margin-left: 5%;
+    padding: 0 40px 10px;
+}
+
+.feature-info h3 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.feature-info p {
+    margin: 5px 0;
+    font-size: 2rem;
+    color: white;
+}
+
+.container2{
+    text-align: justify;
+    padding: 7em 7em;
+    background-color: #e9c667;
+    display: flex;
+}
+
+.about h1{
+    padding: 10px 15px;
+}
+.about p{
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 30px;
+    background-color: lightseagreen;
+    border-radius: 20%;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+footer p {
+    margin: 0;
 }

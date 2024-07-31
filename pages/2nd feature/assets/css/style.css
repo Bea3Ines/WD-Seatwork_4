@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-*{
+body {
+    font-family: Silkscreen;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Silkscreen';
-    outline: none;
 }
-
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Lilita One;
-    color: #333;
-    line-height: 1.4;
-}
-
 .navigate{
     background: lightseagreen;
 }
@@ -23,14 +13,13 @@ body, html {
 }
 .buttons h1{
     font-size: 55px;
-    margin-left: 10%;
     color: #333;
 
 }
 .buttons{
     width: 100%;
     letter-spacing: 2px;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     align-items: center;
     padding: 10px 0;
@@ -65,7 +54,7 @@ h2{
     transition: ease 0.1s;
 }
 
-.container {
+.container1 {
     width: 100%;
     margin: auto;
     overflow: hidden;
@@ -75,212 +64,60 @@ header {
     background: #333;
     color: #fff;
     padding: 1px 0;
-    padding-bottom: 10px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    letter-spacing: 2px;
-}
-
-header p {
-    font-size: 1.2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-header .btn {
-    display: inline-block;
-    text-transform: uppercase;
     margin-top: 10px;
-    padding: 8px 10px;
-    background: #f4b41a;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: white 0.3s ease;
 }
 
-header .btn:hover {
-    background: #d29d0b;
-}
-.row{
+.container {
+    background-image: url(..//css/img/pattern.jpg);
+    background-attachment: fixed;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
 
-.row h2{
-    width: 100%;
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
     text-align: center;
-    margin: 0.6em 0;
-    font-size: 3.75em;
-    font-weight: 600;
-    color: black;
+    transition: transform 0.3s;
+}
 
-}
-.column{
-    padding: 1em;
-}
-.card{
-    text-align: center;
-    padding: 3.1em 1.25em;
-    background: linear-gradient(0deg, lightseagreen 10px, transparent 10px);
-    background-repeat: no-repeat;
-    background-position: 0 0.62em;
-    border-radius: 0.5em;
-    box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.358);
-    cursor: pointer;
-    transition: 0.5s;
-}
-.card .icon{
-    display: grid;
-    place-items: center;
-    height: 2em;
-    width: 2em;
-    font-size: 2.5em;
+.card:hover {
+    transform: translateY(-10px);
     background-color: lightseagreen;
-    border-radius: 50%;
-    margin: auto;
-    font-weight: 600;
-    color: #e9c667;
-    margin: 1em 0;
-}
-.icon::before{
-    height: 1.5em;
-    width: 1.5em;
-    border: 0.12em solid #e9c667;
-    border-radius: 50%;
-    position: absolute;
-    content: "";
     transition: 0.5s;
 }
-.card h3{
-    font-size: 1.3em;
-    font-weight: 600;
-    margin: 1em 0 1.4em 0;
-    letter-spacing: 0.3px;
-    color: chartreuse;
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
-.card p{
-    color: #333;
-    line-height: 2em;
-}
-.card:hover{
-    background-position: 0;
-}
-.card:hover .card::before{
-    width: 2.25em;
-    height: 2.25em;
-}
-@media screen and (min-width: 768px){
-    section{
-        padding: 1em 7em;
-    }
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
 }
 
-@media screen and (min-width: 992px){
-    .section{
-        padding: 1em;
-    }
-    .card{
-        padding: 5em 2em;
-    }
-    .column{
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-        padding: 0 1em;
-    }
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
 }
 
-.container2{
-    display: grid;
-}
-.features-section {
-    background: #ffffff;
-    padding: 50px 0;
-}
 
-.features-section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 3rem;
-}
-
-.feature {
-    display: flex;
-    margin-bottom: 10px;
-    background: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.apple{
-    font-size: 30px;
-}
-.apple img {
-    width: 800px;
-    height: 500px;
-    size-adjust: 5%;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-left: 10%;
-}
-.tangerine{
-    margin-top: 8%;
-    font-size: 1.5rem;
-}
-.tangerine img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-left: 30%;
-}
-.lemon{font-size: 25px;
-margin-top: 5%;}
-.lemon img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-left: 50%;
-}
-.info {
-    margin-right: 10%;
-    float: right;
-}
-.info2 {
-    margin-left: 5%;
-    float: left;
-    align-content: center;
-
-}
-.info3 {
-    float: left;
-}
-
-.feature-info h3 {
-    margin-top: 0;
-    font-size: 3rem;
-}
-
-.feature-info p {
-    margin: 5px 0;
-    font-size: 2rem;
-;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-}
-footer p {
-    margin: 0;
-}
 
 
 
