@@ -61,11 +61,11 @@ It is educational because this page is for community even children who inspires 
 <!-- The following are just sample -->
 <!--Description of the project in details.-->
 
-<!--Guiding Question:
+<Guiding Question:
 - What is the project?
 - Whats the purpose?
 - What are key components?
-- What technology used and how it is used?-->
+- What technology used and how it is used?
 
 ### Key Components
 <!-- TODO: List of Key Components -->
